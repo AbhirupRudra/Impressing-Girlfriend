@@ -16,6 +16,7 @@ body {
 }
 
 .paper {
+  border: 5px solid white;
   background-image: url("images/paper.jpg");
   background-size: 500px;
   background-position: center center;
