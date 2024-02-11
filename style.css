@@ -1,6 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Zeyada&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 body {
@@ -63,9 +64,9 @@ img {
 }
 
 p {
-  font-family: 'Zeyada';
-  font-size: 50px;
-  color: rgb(0,0,100);
+  font-family: 'Pacifico', normal;
+  font-size: 60px;
+  color: rgb(255, 0, 225);
   opacity: 0.75;
   user-select: none;
   
