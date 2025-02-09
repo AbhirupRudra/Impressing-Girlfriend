@@ -16,11 +16,13 @@ body {
 }
 
 .paper {
-  border: 15px solid white;
   background-image: url("images/paper.jpg");
   background-size: 500px;
   background-position: center center;
   padding: 20px 100px;
+  border-style: solid;
+  border-color: aqua;
+  border-radius: 10%;
 /*  min-width: 800px; */
   
   transform: rotateZ(-5deg);
@@ -38,16 +40,19 @@ body {
 }
 
 .paper.image {
-  padding: 10px;
+  padding: 20px;
+  text-align: center;
 }
+
 .paper.image p {
-  font-size: 30px;
+  font-size: 45px;
 }
 
 img {
-  max-height: 400px;
-  width: 100%;
+  max-height: 686px;
+  width: 463px;
   user-select: none;
+  align-items: center;
 }
 
 .paper.heart::after {
@@ -67,9 +72,31 @@ img {
 p {
   font-family: 'Pacifico', normal;
   font-size: 60px;
-  color: rgb(255, 0, 225);
+  color: rgb(255, 0, 170);
   opacity: 0.75;
   user-select: none;
   
  /* filter: drop-shadow(2px 1.5px 1px rgba(0,0,105,0.9)); */
+}
+
+.Picture-note-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Network {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.Network img {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
 }
