@@ -1,3 +1,5 @@
+document.querySelector('video').play();
+
 let highestZ = 1;
 
 class Paper {
